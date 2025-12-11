@@ -1,54 +1,84 @@
-<!DOCTYPE html><html lang="en"><head>
-    <!-- TikTok Pixel Code Start -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificação</title>
+
+<style>
+    body {
+        background: #f4f4f4;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 450px;
+        margin: 80px auto;
+        background: #fff;
+        padding: 30px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    }
+    h1 {
+        font-size: 24px;
+        color: #111;
+    }
+    p {
+        font-size: 18px;
+        color: #444;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 80%;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    button {
+        padding: 15px 20px;
+        background: #ff5c00;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 80%;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+</style>
+
 <script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    function continuar() {
+        const idade = document.getElementById("idade").value;
 
+        if (idade === "" || idade < 1) {
+            alert("Por favor, informe sua idade.");
+            return;
+        }
 
-  ttq.load('D2L17OJC77UCRM9QLJD0');
-  ttq.page();
-}(window, document, 'ttq');
+        // 🔗 Redirecionamento para sua página de vendas
+        window.location.href = "https://convite-on.github.io/ativo/"; 
+    }
 </script>
-<!-- TikTok Pixel Code End -->
-    <!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+</head>
 
+<body>
 
-  ttq.load('D2QFGCRC77U6GE46K6C0');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificação de Segurança - Acesso Exclusivo</title>
-    <meta name="description" content="Confirme que você tem mais de 18 anos para acessar conteúdo exclusivo da Meia Meia Store">
-    <meta name="author" content="Meia Meia Store">
+<div class="container">
+    <h1>Antes de continuar...</h1>
+    <p>Informe sua idade para prosseguir:</p>
 
-    <meta property="og:title" content="Verificação de Segurança - Acesso Exclusivo">
-    <meta property="og:description" content="Confirme que você tem mais de 18 anos para acessar conteúdo exclusivo da Meia Meia Store">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="images/id-preview-7ffac4bf--b4719307-c851-4310-86df-74e81cfcc005.lovable.app-1764156747024.png">
+    <input type="number" id="idade" placeholder="Digite sua idade">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@meiameiastore">
-    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/498aacb8-2a52-4c35-ac94-b941d07e73a8/id-preview-7ffac4bf--b4719307-c851-4310-86df-74e81cfcc005.lovable.app-1764156747024.png">
+    <button onclick="continuar()">Continuar</button>
+</div>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin="" src="js/index-BWJFQUkU.js"></script>
-    <link rel="stylesheet" crossorigin="" href="css/index-CET6OoGz.css">
-  <script defer="" src="js/~flock.js" data-proxy-url="https://convite-on.github.io/ativo/"></script></head>
-
-  <body>
-    <div id="root"></div>
-  
-
-</body></html>
+</body>
+</html>
